@@ -11,9 +11,9 @@ console.log(suma);
 
 //cicio 2.2: Encuentra el número mayor en el array [12, 45, 6, 89, 23].
 const nUmeros = [12, 45, 6, 89, 23];
-let maximo = numeros[0];
+let maximo = nUmeros[0];
  
-for(let num of numeros){
+for(let num of nUmeros){
     if (num > maximo){
         maximo = num
     }
@@ -22,7 +22,7 @@ for(let num of numeros){
 console.log(maximo);
 
 //Ejercicio 2.3: Filtra los números menores a 10 del array [15, 3, 8, 12, 1] y crea un nuevo array.
-const numeros = [15, 3, 8, 12, 1];
-const menoesA10 = numeros.filter(num => num < 10);
+const numeross = [15, 3, 8, 12, 1];
+const menoesA10 = numeross.filter(num => num < 10);
  
 console.log(menoesA10);
