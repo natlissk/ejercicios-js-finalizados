@@ -1,7 +1,7 @@
 //Ejercicio 2.1: Dado el array [3, 7, 2, 9, 5], calcula su suma usando for o for...of.
  
 const numeros =  [3, 7, 2, 9, 5];
-let suma = 0 ;
+let suma = 0;
  
 for(let num of numeros){
     suma += num;
@@ -15,7 +15,7 @@ let maximo = nUmeros[0];
  
 for(let num of nUmeros){
     if (num > maximo){
-        maximo = num
+        maximo = num;
     }
 }
  
